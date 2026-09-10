@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🙄</title>
+ <link rel="stylesheet" href="mylove.css">
+</head>
+<body>
+
+  <div class="bg-hearts" id="bgHearts"></div>
+
+  <div class="modal-overlay" id="customModal">
+    <div class="modal-card">
+      <h3 id="modalMessage">WAHHH Kamu zahra ya???!!</h3>
+      <button class="btn btn-open" onclick="closeModal()">Lanjut 💕</button>
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div class="card-box" id="nameBox">
+      <h1>Iya? dgn sp yh</h1>
+      <p>nama lengkap donk ak gtw klo g lnkp:</p>
+      <input type="text" id="inputName" class="input-name" placeholder="Tulis nama kamu di sini..." autocomplete="off">
+      <button class="btn btn-open" onclick="checkName()">Lanjut ✨</button>
+    </div>
+
+    <div class="card-box" id="askBox" style="display: none;">
+      <h1>Ada Surat Bwatt KAMUUU SYG</h1>
+      <p>Mau buka suratnya sekarang nggak?</p>
+      <div class="btn-group">
+        <button class="btn btn-open" onclick="startOpenEnvelope()">Buka</button>
+        <button class="btn btn-no" id="btnNo">Tidak</button>
+      </div>
+    </div>
+
+    <div class="envelope-wrapper" id="envelopeWrapper">
+      <div class="heart-seal">💖</div>
+    </div>
+
+    <div class="letter-content" id="letterContent">
+      <h2>For My love zahra</h2>
+      <p class="sub-text">Terima kasih udah mau buka surat ini!</p>
+
+      <div class="video-section">
+        <h3>🎬❤️</h3>
+        <p>Ini aku editin buat kamu,hehe semoga suka ya sayangg</p>
+        <div class="video-wrapper">
+          <video controls poster="https://picsum.photos/400/300?random=10">
+            <source src="dia.mp4" type="video/mp4">
+            Browser kamu tidak mendukung pemutaran video.
+          </video>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="photo-card">
+          <div class="img-wrapper">
+            <img src="1z.jpg" alt="Foto 1">
+          </div>
+          <p>Ini Pacar aku,dia cantik kann</p>
+        </div>
+
+        <div class="photo-card">
+          <div class="img-wrapper">
+            <img src="2z.jpg" alt="Foto 2">
+          </div>
+          <p>dia juga baik hatii</p>
+        </div>
+
+        <div class="photo-card">
+          <div class="img-wrapper">
+            <img src="3z.jpg" alt="Foto 3">
+          </div>
+          <p>Aku sayang banget sama dia</p>
+        </div>
+
+        <div class="photo-card">
+          <div class="img-wrapper">
+            <img src="4z.jpg" alt="Foto 4">
+          </div>
+          <p>dia juga lucu</p>
+        </div>
+
+        <div class="photo-card">
+          <div class="img-wrapper">
+            <img src="5z.jpg" alt="Foto 5">
+          </div>
+          <p>Dia putrinya pak heru dan bu yuuni kwkwk</p>
+        </div>
+      </div>
+
+      <div class="footer-love">
+        Aku sayang kamu,semoga kamu suka surat yang aku buat yaa love u sayangggg 😘💖
+      </div>
+    </div>
+
+  </div>
+
+  <script  src="mylove.js">
+   
+  </script>
+</body>
+</html>
